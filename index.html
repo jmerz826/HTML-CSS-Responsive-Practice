@@ -1,15 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Add Google Fonts here-->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
     <!--Link your stylesheet here-->
-
+    <link rel="stylesheet" href="css/index.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/logo.png" alt="illustration of watering can" />
+        </div>
+        <div class="links">
+          <a href="#top">Home</a>
+          <a href="#about">About</a>
+          <a href="#shop">Plants</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <section id="top">
+      <div class="titles">
+        <h1>The Watering Can</h1>
+        <button>Shop Our Indoor Plant Sale</button>
+      </div>
+    </section>
+    <section class="about">
+      <div>
+        <h2>Our Story</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          aperiam facere sequi soluta deleniti consectetur dignissimos
+          recusandae veniam! Aperiam iste repudiandae delectus necessitatibus
+          saepe ratione, sapiente labore laboriosam nam obcaecati!
+        </p>
+      </div>
+    </section>
+    <section id="shop">
+      <h2>Our Plants</h2>
+      <div class="container">
+        <!--This opens the container-->
+        <div class="bg-img succulants"></div>
+        <div class="text">
+          <div>
+            <h3>succulants</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              tempora rerum facere, magni id atque quibusdam necessitatibus
+              libero molestiae eaque ab dignissimos fuga voluptatibus animi
+              saepe dicta deleniti reprehenderit facilis?
+            </p>
+            <button>Shop Now!</button>
+          </div>
+        </div>
+        <div class="bg-img cacti"></div>
+        <div class="bg-img tropicals"></div>
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sit
+            eos incidunt officia odio repellat numquam suscipit quas. Natus,
+            consequatur aut voluptatem blanditiis quos explicabo tempora esse
+            vitae cupiditate possimus.
+          </p>
+          <button>Shop Now!</button>
+        </div>
+      </div>
+      <!--This closes the container-->
+    </section>
+    <footer id="contact">
+      <h2>Get In Touch!</h2>
+      <div class="left">
+        <div>
+          <h3>Find Us Here:</h3>
+          <address>
+            123 Plant Lane <br />
+            Bloomfield, Ontario, <br />Canada, L2G 0X7
+          </address>
+          <a href="tel:1-613-978-8282">+1-613-978-8282</a>
+          <a href="mailto:info@thewateringcan.ca">info@thewateringcan.ca</a>
+          <p>@thewateringcan on the socials</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
